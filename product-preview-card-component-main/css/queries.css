@@ -1,0 +1,20 @@
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .section-hero {
+    margin: 2rem 1rem 2rem 1rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+  .text-hero {
+    padding: 0 2.4rem;
+  }
+  .btn-hero {
+    margin-bottom: 2rem;
+  }
+}
