@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- displays site properly based on user's device -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,60 +25,51 @@
   </head>
 
   <body>
-    <section class="section-hero">
-      <div class="hero">
-        <div class="img-box-hero">
-          <picture>
-            <source
-              media="(max-width: 34em)"
-              srcset="images/image-product-mobile.jpg"
-            />
-            <img
-              src="images/image-product-desktop.jpg"
-              alt="Chanel perfume"
-              class="img-hero"
-            />
-          </picture>
-        </div>
-
-        <div class="text-hero">
-          <p class="subheading-hero">perfume</p>
-          <h1 class="heading-hero">Gabrielle Essence Eau De Parfum</h1>
-          <p class="paragraph-hero">
-            A floral, solar and voluptuous interpretation composed by Olivier
-            Polge, Perfumer-Creator for the House of
-            <span class="text-chanel">chanel</span>.
-          </p>
-          <div class="prices-hero">
-            <p class="price-first">$149.99</p>
-            <p class="price-second">$169.99</p>
-          </div>
-          <button class="btn-hero">
-            <svg
-              class="icon-btn"
-              width="15"
-              height="16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+    <main>
+      <section class="section-product">
+        <div class="product">
+          <div class="img-box-product">
+            <picture>
+              <source
+                media="(max-width: 34em)"
+                srcset="images/image-product-mobile.jpg"
               />
-            </svg>
-            <span> Add to Cart</span>
-          </button>
+              <img
+                src="images/image-product-desktop.jpg"
+                alt="Chanel perfume"
+                class="img-product"
+              />
+            </picture>
+          </div>
+
+          <div class="text-product">
+            <p class="subheading-product">perfume</p>
+            <h1 class="heading-product">Gabrielle Essence Eau De Parfum</h1>
+            <p class="paragraph-product">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of
+              <span class="text-chanel">chanel</span>.
+            </p>
+            <div class="prices-product">
+              <p class="price-first">$149.99</p>
+              <p class="price-second">$169.99</p>
+            </div>
+            <button class="btn">
+              <svg
+                class="icon-btn"
+                width="15"
+                height="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                />
+              </svg>
+              <span> Add to Cart</span>
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <p>
-        Challenge by
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          class="link-footer"
-          >Frontend Mentor</a
-        >.Coded by <a href="#" class="link-footer">Ketevan Salia</a>.
-      </p>
-    </footer>
+      </section>
+    </main>
   </body>
 </html>

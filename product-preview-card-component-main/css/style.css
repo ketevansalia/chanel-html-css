@@ -14,11 +14,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.section-hero {
-  margin: 15rem 40rem 18rem 40rem;
+.section-product {
+  margin: 20rem 40rem 20rem 40rem;
 }
 
-.hero {
+.product {
   border-radius: 1rem;
   overflow: hidden;
   background-color: hsl(0, 0%, 100%);
@@ -28,16 +28,16 @@ body {
   gap: 2.4rem;
 }
 
-.img-hero {
+.img-product {
   max-width: 100%;
   display: block;
 }
 
-.text-hero {
+.text-product {
   padding-right: 6.4rem;
 }
 
-.subheading-hero {
+.subheading-product {
   font-size: 1rem;
   font-weight: 500;
   color: hsl(228, 12%, 48%);
@@ -45,14 +45,14 @@ body {
   letter-spacing: 4px;
   margin-bottom: 1.6rem;
 }
-.heading-hero {
+.heading-product {
   font-family: "Fraunces", serif;
   font-size: 3rem;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
   margin-bottom: 2rem;
 }
-.paragraph-hero {
+.paragraph-product {
   font-size: 1.4rem;
   font-weight: 500;
   color: hsl(228, 12%, 48%);
@@ -62,7 +62,7 @@ body {
 .text-chanel {
   text-transform: uppercase;
 }
-.prices-hero {
+.prices-product {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -86,7 +86,7 @@ body {
   fill: hsl(0, 0%, 100%);
 }
 
-.btn-hero {
+.btn {
   display: inline-block;
   width: 100%;
   font-size: 1.4rem;
@@ -103,13 +103,4 @@ body {
 
 .btn-hero:hover {
   background-color: hsl(158, 43%, 24%);
-}
-
-.footer {
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.link-footer {
-  text-decoration: none;
 }
